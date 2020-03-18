@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بنك الدم</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="more">المزيد</string>
+    <string name="notification">التنبيهات</string>
+    <string name="user">المستخدم</string>
+    <string name="home">الرئيسية</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="last_donation">Last Donation</string>
+    <string name="phone">Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="don_t_have_account_register_from_her">Don\'t have account ? register from her</string>
+    <string name="send">Send</string>
+    <string name="change">Change</string>
+    <string name="wait">Please wait....</string>
+    <string name="blood_type">choice Blood Type</string>
+    <string name="city">your city</string>
+    <string name="governorate">your Governoate</string>
+    <string name="modify">Modify</string>
+    <string name="edited_successfully">Edited Successfully</string>
+    <string name="not_successfully">Not Successfully</string>
+    <string name="favourites">favourites</string>
+    <string name="contact_us">contact us</string>
+    <string name="about_app">about app</string>
+    <string name="rate_app">rate on play store</string>
+    <string name="notifications_settings">notifications settings</string>
+    <string name="sign_out">sign out</string>
+    <string name="cityd">City</string>
+    <string name="hospital">Hospital</string>
+    <string name="patient_name">Patient name</string>
+    <string name="age">Age</string>
+    <string name="how_many_you_need">How Many you need</string>
+    <string name="notes">Notes</string>
+    <string name="hospital_address">Hospital  Address</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="name2">Name :</string>
+    <string name="number_of_bags">Num Of Bags:</string>
+    <string name="blood_type2">Blood Type :</string>
+    <string name="hospital2">Hospital :</string>
+    <string name="address">Address :</string>
+    <string name="phone2">Phone :</string>
+    <string name="call">Call</string>
+    <string name="messege">Messege</string>
+    <string name="title">Title</string>
+    <string name="sending">sending ..</string>
+    <string name="example_text">هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به هذا النص مجرد نص مبدئي ويمكن تغييره بنص اخر عند مواقه العميل به</string>
+    <string name="age2">Age :</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_here">Search Here</string>
+    <string name="categories">الوقاية</string>
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@+id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_donationOrderFragment"
+            app:destination="@id/donationOrderFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_donationDetailFragment"
+            app:destination="@id/donationDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_moreFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_favouritesArticleFragment"
+            app:destination="@id/favouritesArticleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/userDataFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.UserDataFragment"
+        android:label="fragment_user_data"
+        tools:layout="@layout/fragment_user_data" />
+    <fragment
+        android:id="@+id/donationOrderFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.DonationOrderFragment"
+        android:label="fragment_order_donation"
+        tools:layout="@layout/fragment_order_donation" >
+        <action
+            android:id="@+id/action_donationOrderFragment_to_locationFragment"
+            app:destination="@id/locationFragment" />
+        <action
+            android:id="@+id/action_donationOrderFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/donationDetailFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.DonationDetailFragment"
+        android:label="fragment_donation_detail"
+        tools:layout="@layout/fragment_donation_detail" >
+        <argument android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.more.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.more.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.article.ArticleDetailFragment"
+        android:label="fragment_articles_detail"
+        tools:layout="@layout/fragment_articles_detail" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="content"
+            app:argType="string" />
+        <argument
+            android:name="favourites"
+            app:argType="boolean" />
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesArticleFragment"
+        android:name="com.hamoda.bloodbank.ui.fragment.homeCycle.article.FavouritesArticleFragment"
+        android:label="fragment_favourites_article"
+        tools:layout="@layout/fragment_favourites_article" >
+        <action
+            android:id="@+id/action_favouritesArticleFragment_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment" />
+    </fragment>
+
+</navigation>

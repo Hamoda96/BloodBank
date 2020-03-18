@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_user_name"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_age"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/age"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:src="@drawable/ic__down_arrow" />
+
+            <Spinner
+                android:id="@+id/donation_order_fragment_sp_blood_types"
+                style="@style/SpinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_how_many_need"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/how_many_you_need"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_hospital_name"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hospital_name"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/donation_order_fragment_txt_hospital_address"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:drawableLeft="@drawable/ic_compass_solid"
+            android:drawablePadding="@dimen/_10sdp"
+            android:focusable="false"
+            android:gravity="center|start"
+            android:hint="@string/hospital_address" />
+
+
+        <LinearLayout
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:src="@drawable/ic__down_arrow" />
+
+            <Spinner
+                android:id="@+id/donation_order_fragment_sp_governments"
+                style="@style/SpinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/donation_order_fragment_ll_container_city"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:src="@drawable/ic__down_arrow" />
+
+            <Spinner
+                android:id="@+id/donation_order_fragment_sp_city"
+                style="@style/SpinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_phone"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/donation_order_fragment_til_notes"
+            style="@style/TextInputLayoutLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            app:errorTextAppearance="@style/Error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/EditTextLoginCycleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/notes" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/donation_order_fragment_btn_send"
+            style="@style/LoginCycleButtonStyle_2th"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/send"
+            android:textColor="@color/color_white" />
+
+
+    </LinearLayout>
+
+</ScrollView>

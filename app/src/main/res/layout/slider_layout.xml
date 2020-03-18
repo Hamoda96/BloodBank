@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/slider_layout_im_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_slider_1" />
+
+    <TextView
+        android:id="@+id/slider_layout_tv_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:text="يوجد هنا نص افتراضي فقط يوجد ويمكن استبداله باي نص اخر كما يريد العميل يوجد هنا نص افتراضي فقط يوجد ويمكن استبداله باي نص اخر كما يريد العميلهنا نص افتراضي فقط يوجد ويمكن استبداله باي نص اخر كما يريد العميل يوجد هنا نص افتراضي فقط يوجد ويمكن استبداله باي نص اخر كما يريد العميل "
+        android:textSize="@dimen/_15ssp" />
+</LinearLayout>

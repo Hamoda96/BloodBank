@@ -1,0 +1,133 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextInputLayoutLoginCycleStyle">
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:textColorHint">@color/color_red_hint</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_10sdp</item>
+        <item name="android:padding">@dimen/_2sdp</item>
+    </style>
+
+    <style name="EditTextLoginCycleStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:drawablePadding">@dimen/_6sdp</item>
+        <item name="android:textColorHint">@color/color_red_hint</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_6sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_6sdp</item>
+        <item name="android:padding">@dimen/_2sdp</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+
+    <style name="Error">
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColorHighlight">@color/color_red_hint</item>
+        <item name="android:textColorHint">@color/color_red_hint</item>
+        <item name="android:textColorLink">@color/color_red_hint</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="LoginCycleButtonStyle">
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/btn_enter_shape</item>
+        <item name="android:layout_marginTop">@dimen/_15sdp</item>
+    </style>
+
+    <style name="LoginCycleButtonStyle_2th">
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/shape_btn_second_cycle</item>
+        <item name="android:layout_marginTop">@dimen/_15sdp</item>
+    </style>
+
+    <style name="LogoLoginCycleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/_30sdp</item>
+        <item name="android:src">@drawable/white_blood</item>
+    </style>
+
+
+    <style name="SpinnerStyle">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:drawablePadding">@dimen/_8sdp</item>
+        <item name="android:textColorHint">@color/color_red_hint</item>
+        <item name="android:layout_marginTop">@dimen/_4sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+        <item name="android:layout_marginStart">@dimen/_6sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_6sdp</item>
+        <item name="android:paddingStart">@dimen/_4sdp</item>
+        <item name="android:paddingEnd">@dimen/_4sdp</item>
+    </style>
+
+    <style name="SpinnerLinerlayoutStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/_2sdp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+    </style>
+
+
+    <style name="TextViewStyle">
+        <item name="android:drawablePadding">@dimen/_10sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginRight">@dimen/_15sdp</item>
+    </style>
+
+    <style name="DonationTVStyle">
+        <item name="android:layout_marginStart">@dimen/_25sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_60sdp</item>
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:layout_marginTop">@dimen/_6sdp</item>
+    </style>
+
+
+    <style name="TextViewDonationDetailStyle">
+        <item name="android:textColor">@color/color_red_hint</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+    </style>
+
+    <style name="ViewStyle">
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/_2sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:layout_marginTop">@dimen/_2sdp</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+</resources>

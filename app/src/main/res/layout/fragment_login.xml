@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
+
+    <ImageView
+        style="@style/LogoLoginCycleStyle"
+        android:layout_above="@id/login_fragment_et_user_phone" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_fragment_et_user_phone"
+        style="@style/TextInputLayoutLoginCycleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:errorTextAppearance="@style/Error">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/EditTextLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:hint="@string/phone"
+            android:inputType="phone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_fragment_et_password"
+        style="@style/TextInputLayoutLoginCycleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_fragment_et_user_phone"
+        app:passwordToggleEnabled="true"
+        app:errorTextAppearance="@style/Error">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/EditTextLoginCycleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:inputType="textPassword"
+            android:hint="@string/password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/login_fragment_cb_remember_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_fragment_et_password"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:text="@string/remember_me"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/login_fragment_tv_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_fragment_et_password"
+        android:layout_alignTop="@id/login_fragment_cb_remember_me"
+        android:layout_alignBottom="@id/login_fragment_cb_remember_me"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        android:text="@string/forget_password"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/login_fragment_btn_login"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_25sdp"
+        style="@style/LoginCycleButtonStyle"
+        android:layout_below="@id/login_fragment_cb_remember_me"
+        android:text="دخول" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E9E9E9"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+
+        <TextView
+            android:id="@+id/login_fragment_tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="@dimen/_2sdp"
+            android:text="@string/don_t_have_account_register_from_her"
+            android:textColor="@color/color_red_hint"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

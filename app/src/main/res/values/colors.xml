@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#9A0B0B</color>
+    <color name="colorAccent">#9A0B0B</color>
+    <color name="threeDotInSlider">#ED5107</color>
+    <color name="threeDotInSlider_selected">#9A0B0B</color>
+    <color name="circle_slider_color">#ED5107</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_red_hint">#9A0B0B</color>
+    <color name="txt_color">#ac5254</color>
+    <color name="gray">#e5e5e5</color>
+
+</resources>

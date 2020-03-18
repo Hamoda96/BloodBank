@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/name2" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_name"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="mahmoud Hamoda" />
+
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/age2"
+                />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_age"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="15" />
+
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/blood_type2" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_blood_type"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="B+" />
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/number_of_bags" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_num_bags"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="mahmoud Hamoda" />
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/hospital2" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_hospital_name"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="mahmoud Hamoda" />
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_hospital_address"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="mahmoud Hamoda" />
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                style="@style/TextViewDonationDetailStyle"
+                android:text="@string/phone2" />
+
+            <TextView
+                android:id="@+id/donation_detail_tv_phone"
+                style="@style/TextViewDonationDetailStyle"
+                android:text="mahmoud Hamoda" />
+        </TableRow>
+
+<!--        <view-->
+<!--            style="@style/ViewStyle"/>-->
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/donation_detail_tv_notes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:text="fdvfdvfdvcdfv"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="#1A4B4E"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/gray"
+        android:padding="@dimen/_5sdp"
+        />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/donation_detail_fragment_f_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:context=".ui.fragment.homeCycle.LocationFragment" />
+
+
+    <Button
+        android:id="@+id/donation_detail_fragment_btn_call"
+        style="@style/LoginCycleButtonStyle_2th"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/call"
+        android:textColor="@color/color_white" />
+
+</LinearLayout>

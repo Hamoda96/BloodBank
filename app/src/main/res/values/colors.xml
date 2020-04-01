@@ -10,5 +10,8 @@
     <color name="color_red_hint">#9A0B0B</color>
     <color name="txt_color">#ac5254</color>
     <color name="gray">#e5e5e5</color>
+    <color name="success">#32BEA6</color>
+    <color name="error">#E04F5F</color>
+    <color name="black">#000000</color>
 
 </resources>

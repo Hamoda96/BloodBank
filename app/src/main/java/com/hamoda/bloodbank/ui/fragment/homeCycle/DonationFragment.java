@@ -1,5 +1,6 @@
 package com.hamoda.bloodbank.ui.fragment.homeCycle;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -85,6 +86,7 @@ public class DonationFragment extends Fragment {
         // Required empty public constructor
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -101,7 +103,6 @@ public class DonationFragment extends Fragment {
         setPagination();
 
         setSpinner();
-
 
         return view;
     }

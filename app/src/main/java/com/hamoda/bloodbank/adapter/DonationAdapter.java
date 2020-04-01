@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
@@ -91,6 +92,8 @@ public class DonationAdapter extends RecyclerView.Adapter<DonationAdapter.Donati
                 holder.donationAdapterSrlItemSwipe.computeScroll();
             }
         });
+
+
     }
 
 
@@ -125,6 +128,14 @@ public class DonationAdapter extends RecyclerView.Adapter<DonationAdapter.Donati
             super(itemView);
             view = itemView;
             ButterKnife.bind(this, view);
+            itemView.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    v.getParent().requestDisallowInterceptTouchEvent(true);
+                    return false;
+
+                }
+            });
         }
 
         @OnClick({R.id.donation_adapter_tv_call, R.id.donation_adapter_tv_info})

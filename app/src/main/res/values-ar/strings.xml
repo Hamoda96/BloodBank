@@ -58,6 +58,13 @@
     <string name="title_activity_maps">Map</string>
     <string name="search_here">Search Here</string>
     <string name="categories">الوقاية</string>
+    <string name="invalid_email">Email must be like this \"example@example.com\"</string>
+    <string name="invalid_phone1">Phone number must be \ </string>
+    <string name="invalid_phone2"> number</string>
+    <string name="invalid_confirm_password">Confirm password not match</string>
+    <string name="empty">Fields are required</string>
+    <string name="phone3">phone number must be 11 number</string>
+    <string name="weak_password">password is weak</string>
 
 
 </resources>

@@ -19,11 +19,11 @@ public class TapsHomeAdater extends FragmentStatePagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        if (position == 1) {
-            return new ArticlesFragment();
-        } else {
-            return new DonationFragment();
-        }
+            if (position == 1) {
+                return new ArticlesFragment();
+            } else {
+                return new DonationFragment();
+            }
     }
 
     @Override
